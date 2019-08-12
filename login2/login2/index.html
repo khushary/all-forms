@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>login page</title>
+
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="animation.js"></script>
+</head>
+<body>
+<section class="main">
+<div class="login-page">
+
+  <div class="form">
+    <img src="bc6.jpg">
+    <br>
+    <form class="register-form">
+      <input class="fo" type="text" placeholder="name"/>
+      <input class="fo" type="text" placeholder="email address"/>
+      <input class="fo" type="password" placeholder="password"/>
+      <input class="fo" type="password" placeholder="confirm password"/>
+
+
+      <input class="message" type="checkbox" name="tc" value="terms and service"> I agree all statements in <u>Terms of service</u><br><br>
+      
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+
+
+
+      
+    </form>
+    <form class="login-form">
+      <input class="fo" type="text" placeholder="username"/>
+      <input class="fo" type="password" placeholder="password"/><br>
+       <input class="message" type="checkbox" name="rm" value="remember me"> Remember me<br><br>
+      
+      <button>login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+      <p class="message">  or login with</p>
+<div>
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+</div>
+
+    </form>
+
+     
+  </div>
+
+</div>
+</section>
+    <script>
+      $('.message a').click(function(){
+   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});
+    </script>                                      
+</body>
+</html>
+
+
+
+
